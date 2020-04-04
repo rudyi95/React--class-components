@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { contacts } from "./contactsList";
 import Contact from "./contact";
+import Iphone from "../img/iphone.png";
 
 class Contacts extends Component {
   state = {
@@ -16,6 +17,7 @@ class Contacts extends Component {
   handleSearchChange = e => {
     e.persist();
     this.setState(state => ({
+
       search: e.target.value
     }));
   };
@@ -32,15 +34,18 @@ class Contacts extends Component {
 
     return (
       <div className="container">
+      <img src={Iphone}
+           className ="background-image"
+      />
         <div className="device-container">
-          <form className="pt-4">
+          <form className="form">
             <input
               type="text"
               value={search}
               onChange={this.handleSearchChange}
               className="input"
             />
-            <div className="checkbox-container mt-2">
+            <div className="checkbox-container">
               <label>
                 <input
                   type="checkbox"
@@ -78,7 +83,9 @@ class Contacts extends Component {
               contact =>
                 (!search ||
                   contact.lastName.toLowerCase().includes(search) ||
+                  contact.lastName.includes(search) ||
                   contact.firstName.toLowerCase().includes(search) ||
+                  contact.firstName.includes(search) ||
                   contact.phone.includes(search)) &&
                 (contact.gender
                   ? (female && contact.gender === "female") ||

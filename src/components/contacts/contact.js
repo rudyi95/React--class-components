@@ -7,19 +7,17 @@ export default function Contact(props) {
   const { contact } = props;
 
   return (
-    <div className="mt-4 contact-container">
+    <div className="contact-container">
       {contact.gender ? (
         <img
           src={contact.gender === "female" ? Female : Male}
           width="30px"
           alt="img"
-          className="mb-2"
         />
       ) : <img
       src={It}
       width="30px"
       alt="img"
-      className="mb-2"
     />}
 
       <p className="contact-item">{contact.firstName} {contact.lastName}</p>

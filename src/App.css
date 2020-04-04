@@ -9,12 +9,24 @@ html {
 .contact-container:not(:last-child) {
   border-bottom: 1px solid #000;
 }
+.contact-item{
+  font-size: 13px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.background-image{
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100vh;
+}
 
 .device-container {
-  margin: auto;
-  width: 300px;
-  padding: 20px;
-  border: 1px black solid;
+  position: relative;
+  width: 200px;
+  padding: 80px;
 }
 .device-container img{
   float: left;
