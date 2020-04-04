@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/React--class-components/static/css/main.f80b42af.chunk.css",
-    "main.js": "/React--class-components/static/js/main.207a2772.chunk.js",
-    "main.js.map": "/React--class-components/static/js/main.207a2772.chunk.js.map",
+    "main.css": "/React--class-components/static/css/main.23d80744.chunk.css",
+    "main.js": "/React--class-components/static/js/main.3342d2ed.chunk.js",
+    "main.js.map": "/React--class-components/static/js/main.3342d2ed.chunk.js.map",
     "runtime-main.js": "/React--class-components/static/js/runtime-main.5224c7ae.js",
     "runtime-main.js.map": "/React--class-components/static/js/runtime-main.5224c7ae.js.map",
-    "static/js/2.650707c8.chunk.js": "/React--class-components/static/js/2.650707c8.chunk.js",
-    "static/js/2.650707c8.chunk.js.map": "/React--class-components/static/js/2.650707c8.chunk.js.map",
+    "static/js/2.310500dd.chunk.js": "/React--class-components/static/js/2.310500dd.chunk.js",
+    "static/js/2.310500dd.chunk.js.map": "/React--class-components/static/js/2.310500dd.chunk.js.map",
     "index.html": "/React--class-components/index.html",
-    "precache-manifest.72d3132e8b03664539864220654b5544.js": "/React--class-components/precache-manifest.72d3132e8b03664539864220654b5544.js",
+    "precache-manifest.597941a4a227a8071250faf1ae9f96e9.js": "/React--class-components/precache-manifest.597941a4a227a8071250faf1ae9f96e9.js",
     "service-worker.js": "/React--class-components/service-worker.js",
-    "static/css/main.f80b42af.chunk.css.map": "/React--class-components/static/css/main.f80b42af.chunk.css.map",
-    "static/js/2.650707c8.chunk.js.LICENSE.txt": "/React--class-components/static/js/2.650707c8.chunk.js.LICENSE.txt"
+    "static/css/main.23d80744.chunk.css.map": "/React--class-components/static/css/main.23d80744.chunk.css.map",
+    "static/js/2.310500dd.chunk.js.LICENSE.txt": "/React--class-components/static/js/2.310500dd.chunk.js.LICENSE.txt",
+    "static/media/iphone.png": "/React--class-components/static/media/iphone.989c1e81.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5224c7ae.js",
-    "static/js/2.650707c8.chunk.js",
-    "static/css/main.f80b42af.chunk.css",
-    "static/js/main.207a2772.chunk.js"
+    "static/js/2.310500dd.chunk.js",
+    "static/css/main.23d80744.chunk.css",
+    "static/js/main.3342d2ed.chunk.js"
   ]
 }
