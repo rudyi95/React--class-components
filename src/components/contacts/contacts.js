@@ -5,14 +5,11 @@ import Iphone from "../img/iphone.png";
 
 class Contacts extends Component {
   state = {
-    contacts,
     search: "",
     male: true,
     female: true,
     unknown: true
   };
-
-  filterByGender = () => {};
 
   handleSearchChange = e => {
     e.persist();
@@ -36,6 +33,7 @@ class Contacts extends Component {
       <div className="container">
       <img src={Iphone}
            className ="background-image"
+           alt="background-iphone"
       />
         <div className="device-container">
           <form className="form">
@@ -91,6 +89,7 @@ class Contacts extends Component {
                   ? (female && contact.gender === "female") ||
                     (male && contact.gender === "male")
                   : unknown)
+
             )
             .map(contact => (
               <Contact key={contact.lastName} contact={contact} />

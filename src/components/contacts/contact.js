@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Female from "../img/female.png";
 import Male from "../img/male.png";
 import It from "../img/it.png";

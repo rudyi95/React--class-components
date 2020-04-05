@@ -4,7 +4,7 @@ import Contacts from "./components/contacts/contacts";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Contacts />
       </div>
     );
